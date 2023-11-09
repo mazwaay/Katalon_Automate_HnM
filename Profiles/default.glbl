@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>H&amp;M website</description>
+      <initValue>'https://id.hm.com'</initValue>
+      <name>baseUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Valid email</description>
+      <initValue>'mazway.testing@gmail.com'</initValue>
+      <name>emailValid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Invalid email (1)</description>
+      <initValue>'mazway.testing@gmailcom'</initValue>
+      <name>email_withour_dot</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Invalid Email (2)</description>
+      <initValue>'mazway.testinggmail.com'</initValue>
+      <name>email_without_at</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Blank Password</description>
+      <initValue>''</initValue>
+      <name>blank_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Valid password</description>
+      <initValue>'@Anakjaman1'</initValue>
+      <name>Valid_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Blank email</description>
+      <initValue>''</initValue>
+      <name>blank_email</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

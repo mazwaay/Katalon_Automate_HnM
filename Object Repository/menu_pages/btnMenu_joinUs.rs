@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnMenu_joinUs</name>
+   <tag></tag>
+   <elementGuidId>2bab76c3-ba8a-4b39-83ef-b46462d7909b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.action.create.secondary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='maincontent']/div[3]/div/div[2]/div[2]/div[2]/div/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>807f6ff3-1412-4faa-b821-f837043b524f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://id.hm.com/id_id/customer/account/create/</value>
+      <webElementGuid>57b58fc4-760e-4b2a-a521-8e9ad290511a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>action create secondary</value>
+      <webElementGuid>dd8d770d-0237-4a4a-be4a-3f709baf0182</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Bergabunglah dengan Kami</value>
+      <webElementGuid>58da7733-f735-487d-9564-22cf18b8c912</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;maincontent&quot;)/div[@class=&quot;columns&quot;]/div[@class=&quot;column main&quot;]/div[@class=&quot;login-container&quot;]/div[@class=&quot;block block-new-customer&quot;]/div[@class=&quot;block-content&quot;]/div[@class=&quot;actions-toolbar&quot;]/div[@class=&quot;secondary&quot;]/a[@class=&quot;action create secondary&quot;]</value>
+      <webElementGuid>5693ff69-07d8-492b-8755-e4ad61200aed</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='maincontent']/div[3]/div/div[2]/div[2]/div[2]/div/div/a</value>
+      <webElementGuid>2a9971bc-8820-4656-b2fc-c073591db3fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pelanggan Baru'])[1]/following::a[1]</value>
+      <webElementGuid>71f2dbbf-7477-45d9-990b-95412280cd36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Atau'])[1]/following::a[1]</value>
+      <webElementGuid>0437d28f-cf80-469c-980d-e86ebc0fbf73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SHOP'])[1]/preceding::a[1]</value>
+      <webElementGuid>2f6b759b-2949-44df-ac1c-3530d63079d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://id.hm.com/id_id/customer/account/create/')])[2]</value>
+      <webElementGuid>8df9abdd-8dbf-4ba5-afc8-1782a8eb799a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div[2]/div/div/a</value>
+      <webElementGuid>c058ab79-3135-4583-b55b-365d21b51669</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://id.hm.com/id_id/customer/account/create/' and (text() = 'Bergabunglah dengan Kami' or . = 'Bergabunglah dengan Kami')]</value>
+      <webElementGuid>1716b7ca-d603-466d-9160-f85ffe57cdac</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

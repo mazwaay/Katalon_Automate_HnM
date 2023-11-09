@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login_just_enter_email_only</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d44d7b15-36bd-4279-8b6b-3b1892b3551c</testCaseGuid>
+</TestCaseEntity>
