@@ -1,20 +1,19 @@
 # Katalon_Automate_HnM
 # Hi, I'm Mazway 👋
 
-I will create a simple automation test using Selenium Python, Pytest  and Unittest, for reporting, I will use Allure Report on the [HnM Indonesia](https://id.hm.com/).
+I will create a simple automation test using Katalon Studio, java faker for random data and for scenario test, I will use coda.id on the [HnM Indonesia](https://id.hm.com/) website.
 
-## Installation
-
+## Required & Installation
+- Katalon Studio 9.0.0
+- Java Faker 1.0.2
 - clone this project
-- install required.txt
 
 ## For Scenario Test
 
+You can see [here.](https://coda.io/d/_d8dTrZvQtK3/Project-Plan_su9_3)
+
 ## Screen Record
-<img src="https://user-images.githubusercontent.com/42727156/227218971-49909bea-ae57-4c44-b7f7-d68aab03a8c8.mp4" width="50%">
 
 
 ## Reporting
-
-for reporting [Allure Report](https://swaglabs.netlify.app/#), check this.
 
