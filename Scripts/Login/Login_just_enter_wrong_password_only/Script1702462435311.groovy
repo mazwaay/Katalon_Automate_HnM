@@ -18,21 +18,19 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.github.javafaker.Faker as Faker
 
-'Importjavafaker location ID'
-Faker faker = new Faker(new Locale('in-ID'))
-
-'Import javafaker firts name'
-String fName = faker.name().firstName()
-
-'Import javafaker last name'
-String lName = faker.name().lastName()
-
-'Import javafaker email'
-String email = faker.internet.emailAddress()
-
+// SAMPLE JAVAFAKER FOR RANDOM DATA
+// 'Importjavafaker location ID'
+// Faker faker = new Faker(new Locale('in-ID'))
+// 'Import javafaker firts name'
+// String fName = faker.name().firstName()
+// 'Import javafaker last name'
+// String lName = faker.name().lastName()
+// 'Import javafaker email'
+// String email = faker.internet.emailAddress()
 'Open the browser'
 WebUI.openBrowser('')
 
+'Maximize the window'
 WebUI.maximizeWindow()
 
 'Navigate to url H&M'
@@ -41,17 +39,17 @@ WebUI.navigateToUrl(GlobalVariable.baseUrl)
 'Click button menu (Masuk Akun)'
 WebUI.click(findTestObject('menu_pages/btnMenu_masuk_akun'))
 
-'Input email'
-WebUI.setText(findTestObject('login_repos/input_loginUsername'), GlobalVariable.emailValid)
+'Input blank email'
+WebUI.setText(findTestObject('login_repos/input_loginUsername'), GlobalVariable.blank_email)
 
-'Input password'
-WebUI.setText(findTestObject('login_repos/input_loginPassword'), GlobalVariable.blank_password)
+'Input wrong password'
+WebUI.setText(findTestObject('login_repos/input_loginPassword'), GlobalVariable.wrong_password)
 
 'Click button login'
 WebUI.click(findTestObject('login_repos/button_login'))
 
-'Verify the error message "Kolom ini wajib diisi"'
-WebUI.verifyTextPresent('Kolom ini wajib diisi', false)
+'Verify the error message "Masukkan alamat email"'
+WebUI.verifyTextPresent('Masukkan alamat email', false)
 
 'Close the browser'
 WebUI.closeBrowser()

@@ -16,7 +16,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.github.javafaker.Faker as Faker
 
+// SAMPLE JAVAFAKER FOR RANDOM DATA
+// 'Importjavafaker location ID'
+// Faker faker = new Faker(new Locale('in-ID'))
+// 'Import javafaker firts name'
+// String fName = faker.name().firstName()
+// 'Import javafaker last name'
+// String lName = faker.name().lastName()
+// 'Import javafaker email'
+// String email = faker.internet.emailAddress()
 'Open the browser'
 WebUI.openBrowser('')
 
@@ -32,14 +42,14 @@ WebUI.click(findTestObject('menu_pages/btnMenu_masuk_akun'))
 'Input correct email'
 WebUI.setText(findTestObject('login_repos/input_loginUsername'), GlobalVariable.correct_email)
 
-'Input correct password'
-WebUI.setText(findTestObject('login_repos/input_loginPassword'), GlobalVariable.correct_password)
+'Input blank password'
+WebUI.setText(findTestObject('login_repos/input_loginPassword'), GlobalVariable.blank_password)
 
 'Click button login'
 WebUI.click(findTestObject('login_repos/button_login'))
 
-'Verify the message when successfully logged in "Data Pribadi"'
-WebUI.verifyTextPresent('Data Pribadi', false)
+'Verify the error message "Kolom ini wajib diisi"'
+WebUI.verifyTextPresent('Kolom ini wajib diisi', false)
 
 'Close the browser'
 WebUI.closeBrowser()

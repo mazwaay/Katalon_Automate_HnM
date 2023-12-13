@@ -10,19 +10,29 @@
       <name>baseUrl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>Valid email</description>
+      <description>Correct email</description>
       <initValue>'mazway.testing@gmail.com'</initValue>
-      <name>emailValid</name>
+      <name>correct_email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>Invalid email (1)</description>
-      <initValue>'mazway.testing@gmailcom'</initValue>
-      <name>email_withour_dot</name>
+      <description>Correct password</description>
+      <initValue>'@Anakjaman1'</initValue>
+      <name>correct_password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>Invalid Email (2)</description>
-      <initValue>'mazway.testinggmail.com'</initValue>
-      <name>email_without_at</name>
+      <description>Wrong email</description>
+      <initValue>'tenstingg001@gmail.com'</initValue>
+      <name>wrong_email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Wrong Password</description>
+      <initValue>'@abc123'</initValue>
+      <name>wrong_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Blank email</description>
+      <initValue>''</initValue>
+      <name>blank_email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Blank Password</description>
@@ -30,13 +40,13 @@
       <name>blank_password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>Valid password</description>
-      <initValue>'@Anakjaman1'</initValue>
-      <name>Valid_password</name>
+      <description>Invalid email (1)</description>
+      <initValue>'mazway.testing@gmailcom'</initValue>
+      <name>email_without_dot</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>Blank email</description>
-      <initValue>''</initValue>
-      <name>blank_email</name>
+      <description>Invalid Email (2)</description>
+      <initValue>'mazway.testinggmail.com'</initValue>
+      <name>email_without_at</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

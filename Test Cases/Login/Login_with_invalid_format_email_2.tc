@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login_with_invalid_format_email_2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a14337a7-36f9-4e05-8bbc-1edc74770db1</testCaseGuid>
+</TestCaseEntity>

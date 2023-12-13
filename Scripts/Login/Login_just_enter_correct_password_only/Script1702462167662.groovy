@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.github.javafaker.Faker as Faker
 
 'Open the browser'
 WebUI.openBrowser('')
@@ -29,8 +30,8 @@ WebUI.navigateToUrl(GlobalVariable.baseUrl)
 'Click button menu (Masuk Akun)'
 WebUI.click(findTestObject('menu_pages/btnMenu_masuk_akun'))
 
-'Input correct email'
-WebUI.setText(findTestObject('login_repos/input_loginUsername'), GlobalVariable.correct_email)
+'Input blank email'
+WebUI.setText(findTestObject('login_repos/input_loginUsername'), GlobalVariable.blank_email)
 
 'Input correct password'
 WebUI.setText(findTestObject('login_repos/input_loginPassword'), GlobalVariable.correct_password)
@@ -38,8 +39,8 @@ WebUI.setText(findTestObject('login_repos/input_loginPassword'), GlobalVariable.
 'Click button login'
 WebUI.click(findTestObject('login_repos/button_login'))
 
-'Verify the message when successfully logged in "Data Pribadi"'
-WebUI.verifyTextPresent('Data Pribadi', false)
+'Verify the error message "Masukkan alamat email"'
+WebUI.verifyTextPresent('Masukkan alamat email', false)
 
 'Close the browser'
 WebUI.closeBrowser()

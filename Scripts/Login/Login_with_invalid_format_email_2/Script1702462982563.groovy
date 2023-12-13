@@ -29,8 +29,8 @@ WebUI.navigateToUrl(GlobalVariable.baseUrl)
 'Click button menu (Masuk Akun)'
 WebUI.click(findTestObject('menu_pages/btnMenu_masuk_akun'))
 
-'Input correct email'
-WebUI.setText(findTestObject('login_repos/input_loginUsername'), GlobalVariable.correct_email)
+'Input invalid format email (2)'
+WebUI.setText(findTestObject('login_repos/input_loginUsername'), GlobalVariable.email_without_at)
 
 'Input correct password'
 WebUI.setText(findTestObject('login_repos/input_loginPassword'), GlobalVariable.correct_password)
@@ -38,8 +38,8 @@ WebUI.setText(findTestObject('login_repos/input_loginPassword'), GlobalVariable.
 'Click button login'
 WebUI.click(findTestObject('login_repos/button_login'))
 
-'Verify the message when successfully logged in "Data Pribadi"'
-WebUI.verifyTextPresent('Data Pribadi', false)
+'Verify the message error "Masukkan alamat email yang benar"'
+WebUI.verifyTextPresent('Masukkan alamat email yang benar', false)
 
 'Close the browser'
 WebUI.closeBrowser()
