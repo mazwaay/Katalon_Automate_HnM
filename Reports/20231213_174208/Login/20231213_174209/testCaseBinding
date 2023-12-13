@@ -1,0 +1,10 @@
+{"testCaseName":"Test Cases/Login/Login_just_enter_correct_email_only","testCaseId":"Test Cases/Login/Login_just_enter_correct_email_only","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Login_just_enter_correct_password_only","testCaseId":"Test Cases/Login/Login_just_enter_correct_password_only","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Login_just_enter_wrong_email_only","testCaseId":"Test Cases/Login/Login_just_enter_wrong_email_only","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Login_just_enter_wrong_password_only","testCaseId":"Test Cases/Login/Login_just_enter_wrong_password_only","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Login_using_correct_email_and_wrong_password","testCaseId":"Test Cases/Login/Login_using_correct_email_and_wrong_password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Login_using_correct_password_and_wrong_email","testCaseId":"Test Cases/Login/Login_using_correct_password_and_wrong_email","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Login_without_entering_email_and_password","testCaseId":"Test Cases/Login/Login_without_entering_email_and_password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Login_with_invalid_format_email_1","testCaseId":"Test Cases/Login/Login_with_invalid_format_email_1","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Login_with_invalid_format_email_2","testCaseId":"Test Cases/Login/Login_with_invalid_format_email_2","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Login_with_valid_data","testCaseId":"Test Cases/Login/Login_with_valid_data","iterationVariableName":""}

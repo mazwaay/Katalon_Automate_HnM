@@ -1,0 +1,111 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 120.0.0.0,,,2023-12-13 17:42:12,2023-12-13 17:44:15,2m - 2.517s,PASSED
+,,,,,,,
+Test Cases/Login/Login_just_enter_correct_email_only,Chrome 120.0.0.0,,,2023-12-13 17:42:13,2023-12-13 17:42:26,13.024s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,Open the browser,,2023-12-13 17:42:13,2023-12-13 17:42:15,1.580s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,Maximize the window,,2023-12-13 17:42:15,2023-12-13 17:42:15,0.147s,PASSED
+navigateToUrl(baseUrl),Chrome 120.0.0.0,Navigate to url H&M,,2023-12-13 17:42:15,2023-12-13 17:42:20,5.338s,PASSED
+"click(findTestObject(""menu_pages/btnMenu_masuk_akun""))",Chrome 120.0.0.0,Click button menu (Masuk Akun),,2023-12-13 17:42:20,2023-12-13 17:42:23,2.757s,PASSED
+"setText(findTestObject(""login_repos/input_loginUsername""), correct_email)",Chrome 120.0.0.0,Input correct email,,2023-12-13 17:42:23,2023-12-13 17:42:24,1.177s,PASSED
+"setText(findTestObject(""login_repos/input_loginPassword""), blank_password)",Chrome 120.0.0.0,Input blank password,,2023-12-13 17:42:24,2023-12-13 17:42:25,0.656s,PASSED
+"click(findTestObject(""login_repos/button_login""))",Chrome 120.0.0.0,Click button login,,2023-12-13 17:42:25,2023-12-13 17:42:25,0.376s,PASSED
+"verifyTextPresent(""Kolom ini wajib diisi"", false)",Chrome 120.0.0.0,"Verify the error message ""Kolom ini wajib diisi""",,2023-12-13 17:42:25,2023-12-13 17:42:26,0.556s,PASSED
+closeBrowser(),Chrome 120.0.0.0,Close the browser,,2023-12-13 17:42:26,2023-12-13 17:42:26,0.166s,PASSED
+,,,,,,,
+Test Cases/Login/Login_just_enter_correct_password_only,Chrome 120.0.0.0,,,2023-12-13 17:42:26,2023-12-13 17:42:40,14.331s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,Open the browser,,2023-12-13 17:42:26,2023-12-13 17:42:26,0.638s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,Maximize the window,,2023-12-13 17:42:26,2023-12-13 17:42:27,0.135s,PASSED
+navigateToUrl(baseUrl),Chrome 120.0.0.0,Navigate to url H&M,,2023-12-13 17:42:27,2023-12-13 17:42:34,7.409s,PASSED
+"click(findTestObject(""menu_pages/btnMenu_masuk_akun""))",Chrome 120.0.0.0,Click button menu (Masuk Akun),,2023-12-13 17:42:34,2023-12-13 17:42:37,2.926s,PASSED
+"setText(findTestObject(""login_repos/input_loginUsername""), blank_email)",Chrome 120.0.0.0,Input blank email,,2023-12-13 17:42:37,2023-12-13 17:42:38,1.362s,PASSED
+"setText(findTestObject(""login_repos/input_loginPassword""), correct_password)",Chrome 120.0.0.0,Input correct password,,2023-12-13 17:42:38,2023-12-13 17:42:39,0.698s,PASSED
+"click(findTestObject(""login_repos/button_login""))",Chrome 120.0.0.0,Click button login,,2023-12-13 17:42:39,2023-12-13 17:42:39,0.362s,PASSED
+"verifyTextPresent(""Masukkan alamat email"", false)",Chrome 120.0.0.0,"Verify the error message ""Masukkan alamat email""",,2023-12-13 17:42:39,2023-12-13 17:42:40,0.570s,PASSED
+closeBrowser(),Chrome 120.0.0.0,Close the browser,,2023-12-13 17:42:40,2023-12-13 17:42:40,0.159s,PASSED
+,,,,,,,
+Test Cases/Login/Login_just_enter_wrong_email_only,Chrome 120.0.0.0,,,2023-12-13 17:42:40,2023-12-13 17:42:52,12.312s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,Open the browser,,2023-12-13 17:42:40,2023-12-13 17:42:41,0.610s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,Maximize the window,,2023-12-13 17:42:41,2023-12-13 17:42:41,0.135s,PASSED
+navigateToUrl(baseUrl),Chrome 120.0.0.0,Navigate to url H&M,,2023-12-13 17:42:41,2023-12-13 17:42:46,5.389s,PASSED
+"click(findTestObject(""menu_pages/btnMenu_masuk_akun""))",Chrome 120.0.0.0,Click button menu (Masuk Akun),,2023-12-13 17:42:46,2023-12-13 17:42:49,2.929s,PASSED
+"setText(findTestObject(""login_repos/input_loginUsername""), blank_email)",Chrome 120.0.0.0,Input blank email,,2023-12-13 17:42:49,2023-12-13 17:42:51,1.431s,PASSED
+"setText(findTestObject(""login_repos/input_loginPassword""), wrong_password)",Chrome 120.0.0.0,Input wrong password,,2023-12-13 17:42:51,2023-12-13 17:42:51,0.676s,PASSED
+"click(findTestObject(""login_repos/button_login""))",Chrome 120.0.0.0,Click button login,,2023-12-13 17:42:51,2023-12-13 17:42:52,0.332s,PASSED
+"verifyTextPresent(""Masukkan alamat email"", false)",Chrome 120.0.0.0,"Verify the error message ""Masukkan alamat email""",,2023-12-13 17:42:52,2023-12-13 17:42:52,0.589s,PASSED
+closeBrowser(),Chrome 120.0.0.0,Close the browser,,2023-12-13 17:42:52,2023-12-13 17:42:52,0.164s,PASSED
+,,,,,,,
+Test Cases/Login/Login_just_enter_wrong_password_only,Chrome 120.0.0.0,,,2023-12-13 17:42:52,2023-12-13 17:43:04,11.824s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,Open the browser,,2023-12-13 17:42:52,2023-12-13 17:42:53,0.633s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,Maximize the window,,2023-12-13 17:42:53,2023-12-13 17:42:53,0.129s,PASSED
+navigateToUrl(baseUrl),Chrome 120.0.0.0,Navigate to url H&M,,2023-12-13 17:42:53,2023-12-13 17:42:58,4.567s,PASSED
+"click(findTestObject(""menu_pages/btnMenu_masuk_akun""))",Chrome 120.0.0.0,Click button menu (Masuk Akun),,2023-12-13 17:42:58,2023-12-13 17:43:01,3.243s,PASSED
+"setText(findTestObject(""login_repos/input_loginUsername""), blank_email)",Chrome 120.0.0.0,Input blank email,,2023-12-13 17:43:01,2023-12-13 17:43:02,1.421s,PASSED
+"setText(findTestObject(""login_repos/input_loginPassword""), wrong_password)",Chrome 120.0.0.0,Input wrong password,,2023-12-13 17:43:02,2023-12-13 17:43:03,0.725s,PASSED
+"click(findTestObject(""login_repos/button_login""))",Chrome 120.0.0.0,Click button login,,2023-12-13 17:43:03,2023-12-13 17:43:03,0.361s,PASSED
+"verifyTextPresent(""Masukkan alamat email"", false)",Chrome 120.0.0.0,"Verify the error message ""Masukkan alamat email""",,2023-12-13 17:43:03,2023-12-13 17:43:04,0.558s,PASSED
+closeBrowser(),Chrome 120.0.0.0,Close the browser,,2023-12-13 17:43:04,2023-12-13 17:43:04,0.171s,PASSED
+,,,,,,,
+Test Cases/Login/Login_using_correct_email_and_wrong_password,Chrome 120.0.0.0,,,2023-12-13 17:43:04,2023-12-13 17:43:18,13.722s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,Open the browser,,2023-12-13 17:43:04,2023-12-13 17:43:05,0.619s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,Maximize the window,,2023-12-13 17:43:05,2023-12-13 17:43:05,0.132s,PASSED
+navigateToUrl(baseUrl),Chrome 120.0.0.0,Navigate to url H&M,,2023-12-13 17:43:05,2023-12-13 17:43:09,4.325s,PASSED
+"click(findTestObject(""menu_pages/btnMenu_masuk_akun""))",Chrome 120.0.0.0,Click button menu (Masuk Akun),,2023-12-13 17:43:09,2023-12-13 17:43:12,2.909s,PASSED
+"setText(findTestObject(""login_repos/input_loginUsername""), correct_email)",Chrome 120.0.0.0,Input correct email,,2023-12-13 17:43:12,2023-12-13 17:43:13,1.127s,PASSED
+"setText(findTestObject(""login_repos/input_loginPassword""), wrong_password)",Chrome 120.0.0.0,Input wrong password,,2023-12-13 17:43:13,2023-12-13 17:43:14,0.707s,PASSED
+"click(findTestObject(""login_repos/button_login""))",Chrome 120.0.0.0,Click button login,,2023-12-13 17:43:14,2023-12-13 17:43:16,1.643s,PASSED
+"verifyTextPresent(""Tidak valid login atau kata sandi anda."", false)",Chrome 120.0.0.0,"Verify the error message ""Tidak valid login atau kata sandi anda.""",,2023-12-13 17:43:16,2023-12-13 17:43:18,2.046s,PASSED
+closeBrowser(),Chrome 120.0.0.0,Close the browser,,2023-12-13 17:43:18,2023-12-13 17:43:18,0.149s,PASSED
+,,,,,,,
+Test Cases/Login/Login_using_correct_password_and_wrong_email,Chrome 120.0.0.0,,,2023-12-13 17:43:18,2023-12-13 17:43:31,12.806s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,Open the browser,,2023-12-13 17:43:18,2023-12-13 17:43:19,0.606s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,Maximize the window,,2023-12-13 17:43:19,2023-12-13 17:43:19,0.134s,PASSED
+navigateToUrl(baseUrl),Chrome 120.0.0.0,Navigate to url H&M,,2023-12-13 17:43:19,2023-12-13 17:43:22,2.946s,PASSED
+"click(findTestObject(""menu_pages/btnMenu_masuk_akun""))",Chrome 120.0.0.0,Click button menu (Masuk Akun),,2023-12-13 17:43:22,2023-12-13 17:43:25,3.018s,PASSED
+"setText(findTestObject(""login_repos/input_loginUsername""), wrong_email)",Chrome 120.0.0.0,Input wrong email,,2023-12-13 17:43:25,2023-12-13 17:43:26,1.450s,PASSED
+"setText(findTestObject(""login_repos/input_loginPassword""), correct_password)",Chrome 120.0.0.0,Input correct password,,2023-12-13 17:43:26,2023-12-13 17:43:27,0.697s,PASSED
+"click(findTestObject(""login_repos/button_login""))",Chrome 120.0.0.0,Click button login,,2023-12-13 17:43:27,2023-12-13 17:43:28,1.516s,PASSED
+"verifyTextPresent(""Tidak valid login atau kata sandi anda."", false)",Chrome 120.0.0.0,"Verify the error message ""Tidak valid login atau kata sandi anda.""",,2023-12-13 17:43:28,2023-12-13 17:43:31,2.231s,PASSED
+closeBrowser(),Chrome 120.0.0.0,Close the browser,,2023-12-13 17:43:31,2023-12-13 17:43:31,0.150s,PASSED
+,,,,,,,
+Test Cases/Login/Login_without_entering_email_and_password,Chrome 120.0.0.0,,,2023-12-13 17:43:31,2023-12-13 17:43:40,8.861s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,Open the browser,,2023-12-13 17:43:31,2023-12-13 17:43:31,0.662s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,Maximize the window,,2023-12-13 17:43:31,2023-12-13 17:43:32,0.138s,PASSED
+navigateToUrl(baseUrl),Chrome 120.0.0.0,Navigate to url H&M,,2023-12-13 17:43:32,2023-12-13 17:43:35,2.988s,PASSED
+"click(findTestObject(""menu_pages/btnMenu_masuk_akun""))",Chrome 120.0.0.0,Click button menu (Masuk Akun),,2023-12-13 17:43:35,2023-12-13 17:43:37,2.899s,PASSED
+"click(findTestObject(""login_repos/button_login""))",Chrome 120.0.0.0,Click button login,,2023-12-13 17:43:37,2023-12-13 17:43:39,1.087s,PASSED
+"verifyTextPresent(""Masukkan alamat email"", false)",Chrome 120.0.0.0,"Verify the message error ""Masukkan alamat email""",,2023-12-13 17:43:39,2023-12-13 17:43:39,0.571s,PASSED
+"verifyTextPresent(""Kolom ini wajib diisi"", false)",Chrome 120.0.0.0,"Verify the message error ""Kolom ini wajib diisi""",,2023-12-13 17:43:39,2023-12-13 17:43:39,0.326s,PASSED
+closeBrowser(),Chrome 120.0.0.0,Close the browser,,2023-12-13 17:43:39,2023-12-13 17:43:40,0.142s,PASSED
+,,,,,,,
+Test Cases/Login/Login_with_invalid_format_email_1,Chrome 120.0.0.0,,,2023-12-13 17:43:40,2023-12-13 17:43:49,9.577s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,Open the browser,,2023-12-13 17:43:40,2023-12-13 17:43:40,0.640s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,Maximize the window,,2023-12-13 17:43:40,2023-12-13 17:43:40,0.134s,PASSED
+navigateToUrl(baseUrl),Chrome 120.0.0.0,Navigate to url H&M,,2023-12-13 17:43:40,2023-12-13 17:43:43,2.631s,PASSED
+"click(findTestObject(""menu_pages/btnMenu_masuk_akun""))",Chrome 120.0.0.0,Click button menu (Masuk Akun),,2023-12-13 17:43:43,2023-12-13 17:43:46,2.889s,PASSED
+"setText(findTestObject(""login_repos/input_loginUsername""), email_without_dot)",Chrome 120.0.0.0,Input invalid format email (1),,2023-12-13 17:43:46,2023-12-13 17:43:47,1.488s,PASSED
+"setText(findTestObject(""login_repos/input_loginPassword""), correct_password)",Chrome 120.0.0.0,Input correct password,,2023-12-13 17:43:47,2023-12-13 17:43:48,0.709s,PASSED
+"click(findTestObject(""login_repos/button_login""))",Chrome 120.0.0.0,Click button login,,2023-12-13 17:43:48,2023-12-13 17:43:48,0.373s,PASSED
+"verifyTextPresent(""Masukkan alamat email yang benar"", false)",Chrome 120.0.0.0,"Verify the message error ""Masukkan alamat email yang benar""",,2023-12-13 17:43:48,2023-12-13 17:43:49,0.546s,PASSED
+closeBrowser(),Chrome 120.0.0.0,Close the browser,,2023-12-13 17:43:49,2023-12-13 17:43:49,0.124s,PASSED
+,,,,,,,
+Test Cases/Login/Login_with_invalid_format_email_2,Chrome 120.0.0.0,,,2023-12-13 17:43:49,2023-12-13 17:43:59,10.132s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,Open the browser,,2023-12-13 17:43:49,2023-12-13 17:43:50,0.611s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,Maximize the window,,2023-12-13 17:43:50,2023-12-13 17:43:50,0.140s,PASSED
+navigateToUrl(baseUrl),Chrome 120.0.0.0,Navigate to url H&M,,2023-12-13 17:43:50,2023-12-13 17:43:53,2.691s,PASSED
+"click(findTestObject(""menu_pages/btnMenu_masuk_akun""))",Chrome 120.0.0.0,Click button menu (Masuk Akun),,2023-12-13 17:43:53,2023-12-13 17:43:56,3.578s,PASSED
+"setText(findTestObject(""login_repos/input_loginUsername""), email_without_at)",Chrome 120.0.0.0,Input invalid format email (2),,2023-12-13 17:43:56,2023-12-13 17:43:58,1.276s,PASSED
+"setText(findTestObject(""login_repos/input_loginPassword""), correct_password)",Chrome 120.0.0.0,Input correct password,,2023-12-13 17:43:58,2023-12-13 17:43:58,0.728s,PASSED
+"click(findTestObject(""login_repos/button_login""))",Chrome 120.0.0.0,Click button login,,2023-12-13 17:43:58,2023-12-13 17:43:59,0.364s,PASSED
+"verifyTextPresent(""Masukkan alamat email yang benar"", false)",Chrome 120.0.0.0,"Verify the message error ""Masukkan alamat email yang benar""",,2023-12-13 17:43:59,2023-12-13 17:43:59,0.538s,PASSED
+closeBrowser(),Chrome 120.0.0.0,Close the browser,,2023-12-13 17:43:59,2023-12-13 17:43:59,0.151s,PASSED
+,,,,,,,
+Test Cases/Login/Login_with_valid_data,Chrome 120.0.0.0,,,2023-12-13 17:43:59,2023-12-13 17:44:15,15.665s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,Open the browser,,2023-12-13 17:43:59,2023-12-13 17:44:00,0.649s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,Maximize the window,,2023-12-13 17:44:00,2023-12-13 17:44:00,0.121s,PASSED
+navigateToUrl(baseUrl),Chrome 120.0.0.0,Navigate to url H&M,,2023-12-13 17:44:00,2023-12-13 17:44:02,1.980s,PASSED
+"click(findTestObject(""menu_pages/btnMenu_masuk_akun""))",Chrome 120.0.0.0,Click button menu (Masuk Akun),,2023-12-13 17:44:02,2023-12-13 17:44:05,2.769s,PASSED
+"setText(findTestObject(""login_repos/input_loginUsername""), correct_email)",Chrome 120.0.0.0,Input correct email,,2023-12-13 17:44:05,2023-12-13 17:44:06,1.437s,PASSED
+"setText(findTestObject(""login_repos/input_loginPassword""), correct_password)",Chrome 120.0.0.0,Input correct password,,2023-12-13 17:44:06,2023-12-13 17:44:07,0.699s,PASSED
+"click(findTestObject(""login_repos/button_login""))",Chrome 120.0.0.0,Click button login,,2023-12-13 17:44:07,2023-12-13 17:44:11,3.974s,PASSED
+"verifyTextPresent(""Data Pribadi"", false)",Chrome 120.0.0.0,"Verify the message when successfully logged in ""Data Pribadi""",,2023-12-13 17:44:11,2023-12-13 17:44:15,3.818s,PASSED
+closeBrowser(),Chrome 120.0.0.0,Close the browser,,2023-12-13 17:44:15,2023-12-13 17:44:15,0.157s,PASSED
